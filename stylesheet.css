@@ -1,0 +1,97 @@
+.navbar {
+  padding: 20px;
+  background-color: PaleGoldenRod;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border: 3px solid rgba(255, 0, 0, 0.5);
+  border-color: tan;
+}
+
+.navbar a{
+  color: black;
+  font-family: Georgia, serif;
+  margin-right: 10px;
+  font-size: 200%
+}
+
+.hero {
+  background-image: url("floodcar.jpg");
+  padding: 350px;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.hero h1{
+  color: black;
+  border: 3px solid rgba(255, 0, 0, 0.5);
+  max-width: 300px;
+  background-color: tan;
+  font-family: Georgia, serif;
+  font-size: 250%;
+  border-color: khaki;
+}
+
+.About, .History {
+  width: 70%;
+  margin:auto;
+  margin-top: 60px;
+  padding: 20px;
+  background-color: PaleGoldenRod;
+  border: 3px solid rgba(255, 0, 0, 0.5);
+  border-color: tan;
+  
+}
+
+body {
+  background-color: wheat;
+}
+
+.Gallery1, .Gallery2, .Gallery3, .Gallery4, .Gallery5 {
+    display: none;
+}
+
+.MiniPics {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  width: 70%;
+  margin: auto;
+}
+
+.MiniPics div{
+  width: 150px;
+  height: 150px;
+  background-position: center;
+  background-size: cover;
+  margin: 10px;
+}
+
+.Gallery-active {
+  width: 70%;
+  height: 500px;
+  margin: auto;
+  background-position: center;
+  background-size: cover;
+  display: block;
+}
+
+.Gallery1, .Mini1 {
+  background-image: url("http://www.fergusonlibrarydigitalarchives.org/sites/default/files/styles/large/public/A59-529d.jpg");
+}
+
+.Gallery2, .Mini2 {
+  background-image: url("http://www.fergusonlibrarydigitalarchives.org/sites/default/files/styles/large/public/A59-529c.jpg");
+}
+
+.Gallery3, .Mini3 {
+  background-image: url("http://www.fergusonlibrarydigitalarchives.org/sites/default/files/styles/large/public/A59-529a.jpg");
+}
+
+.Gallery4, .Mini4 {
+  background-image: url("http://www.fergusonlibrarydigitalarchives.org/sites/default/files/styles/large/public/A56-526.jpg");
+}
+
+.Gallery5, .Mini5 {
+  background-image: url("http://www.fergusonlibrarydigitalarchives.org/sites/default/files/styles/large/public/A54-524.jpg");
+}
