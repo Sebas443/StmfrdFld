@@ -34,4 +34,25 @@ active.removeClass("Gallery-active");
 $(".Gallery5").addClass("Gallery-active");
 });
 
+
+$(".Mini6").click(function(){
+var active=$(".Map-active");
+active.removeClass("Map-active");
+$(".Map1").addClass("Map-active");
+});
+
+
+$(".Mini7").click(function(){
+var active=$(".Map-active");
+active.removeClass("Map-active");
+$(".Map2").addClass("Map-active");
+});
+
+
+$(".Mini8").click(function(){
+var active=$(".Map-active");
+active.removeClass("Map-active");
+$(".Map3").addClass("Map-active");
+});
+
 });
