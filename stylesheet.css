@@ -1,6 +1,6 @@
 .navbar {
   padding: 20px;
-  background-color: PaleGoldenRod;
+  background-color: #FFF5CD;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -27,10 +27,10 @@
   color: black;
   border: 3px solid rgba(255, 0, 0, 0.5);
   max-width: 300px;
-  background-color: tan;
+  background-color: #FFF5CD;
   font-family: Georgia, serif;
   font-size: 250%;
-  border-color: khaki;
+  border-color: tan;
 }
 
 .About, .History {
@@ -38,10 +38,9 @@
   margin:auto;
   margin-top: 60px;
   padding: 20px;
-  background-color: PaleGoldenRod;
+  background-color: #FFF5CD;
   border: 3px solid rgba(255, 0, 0, 0.5);
   border-color: tan;
-  
 }
 
 body {
@@ -94,4 +93,48 @@ body {
 
 .Gallery5, .Mini5 {
   background-image: url("http://www.fergusonlibrarydigitalarchives.org/sites/default/files/styles/large/public/A54-524.jpg");
+}
+
+.Map1 img, .Map2 img, .Map3 img {
+    display: none;
+}
+
+.Map-active img {
+  display: block;
+}
+
+.Mini6 {
+  background-image: url("Carol1954.jpg");
+}
+
+.Mini7 {
+  background-image: url("mwr1954.jpg");
+}
+
+.Mini8 {
+  background-image: url("Hurricane1954.jpg");
+}
+
+.MapPics {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 70%;
+  margin:auto;
+}
+
+.MiniMap {
+  width: 40%;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+img, .imageBorder {
+  border: 3px solid rgba(255, 0, 0, 0.5);
+  border-color: tan;
+}
+
+.imgDescription {
+  border: 3px solid rgba(255, 0, 0, 0.5);
+  border-color: tan;
+  background-color: #FFF5CD;
+  height: 20px !important;
 }
