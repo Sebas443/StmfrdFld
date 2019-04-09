@@ -37,10 +37,12 @@
   width: 70%;
   margin:auto;
   margin-top: 60px;
-  padding: 20px;
+  padding: 30px 60px 30px 60px;
   background-color: #FFF5CD;
   border: 3px solid rgba(255, 0, 0, 0.5);
   border-color: tan;
+  font-family: Georgia, serif;
+  line-height: 1.8;
 }
 
 body {
